@@ -133,6 +133,6 @@ class TodoList extends React.Component {
 }
 ReactDOM.render(
     <TodoList />,
-    document.getElementById('todo')
+    document.getElementById('root')
 );
 

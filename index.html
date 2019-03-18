@@ -2,29 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>React</title>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
     <style>
-        .todo-list
-        {
-            font-size: 20px;
+        .col-4 {
+            border: solid grey 1px;
+            border-radius: 5px;
+            font-size: 5vw;
+            text-align: center;
+            color: black;
+            display: inline-block;
+            height: 150px;
         }
     </style>
 </head>
 <body>
 
-<section class="container" id="todo">
-</section>
+<div class="container" id="root">
+</div>
 
 
 
-
-<script   type="text/jsx" src="components/task-list.jsx" ></script>
+<!--<script type="text/jsx" src="components/task-list.jsx" ></script>-->
+<script type="text/jsx" src="components/tic-tac-toe.jsx"></script>
 </body>
 </html>
