@@ -1,12 +1,6 @@
 
-// var tasks=[
-//     {id:0,title:'Make gold in LoL'},
-//     {id:1,title:'Go shopping'},
-//     {id:2,title:'Buy a new car'},
-//     {id:3,title:'go running every morning for one month'},
-//
-// ];
-var Id=4;
+var Id=0;
+console.log(React);
 class ListItem extends React.Component {
     constructor (props) {
         super(props);
